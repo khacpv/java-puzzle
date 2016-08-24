@@ -39,5 +39,5 @@ Activity sẽ được tạo ra và đặt trên đỉnh của stack trong cùng
 
 ![image][standardtopstandard]
 
-[standardtopstandard]: images/standardtopstandard.jpg "standardtop standard"
+[standardtopstandard]: images/standardtopstandard.jpg "standard topstandard"
 [gallerystandardl1]: images/gallerystandardl1.jpg "gallery standard l1"
