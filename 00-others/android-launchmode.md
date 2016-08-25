@@ -49,7 +49,7 @@ Và đây là những gì bạn sẽ nhìn thấy trong Task Manager:
 
 Nếu chúng ta chuyển sang một ứng dụng khác, sau đó quay lại ứng dụng Gallery, thì ta vẫn nhìn thấy rằng standard lauchMode đặt trên đỉnh task của Gallery. Nếu ta cần làm bất kỳ thứ gì với ứng dụng Gallery, chúng ta phải hoàn thành trong activity sau đó.
 
-### Đối với thiết bị Lollipop
+### Đối với thiết bị Lollipop trở lên
 
 Nếu những activity này là từ cùng một ứng dụng, nó sẽ làm việc giống như trước Lollipop, activity mới sẽ được đặt trên đỉnh của task trước đó.
 
@@ -189,7 +189,7 @@ Chế độ này ít khi được sử dụng. Một vài trường hợp thực
 
 # Intent flags
 
-Bên cạnh việc gán các launch mode trực tiếp từ `AndroidManifest.xml`, chúng ta cũng có thể gán thông quá **Intent Flags**, ví dụ:
+Bên cạnh việc gán các launch mode trực tiếp từ `AndroidManifest.xml`, chúng ta cũng có thể gán thông qua **Intent Flags**, ví dụ:
 
 ````
 Intent intent = new Intent(StandardActivity.this, StandardActivity.class);
