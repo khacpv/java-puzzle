@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stro",
+				"strobe"
+			],
+			[
+				"c",
+				"currentState"
+			],
+			[
+				"io",
+				"ionicPlatform"
+			],
+			[
+				"ke",
+				"keyItem"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"cordo",
+				"cordovaSQLite"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cor",
+				"cordovaSQLite"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "00-others/android-launchmode.md",
+			"settings":
+			{
+				"buffer_size": 13003,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"MarkdownP",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Mark",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/java-puzzle.sublime-project",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/java-puzzle.sublime-workspace",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/00-others/android-launchmode.md",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/README.md",
+		"/Volumes/DRIVE ONE 4/Serial key.txt",
+		"/Users/khacpham/Desktop/layvo.txt",
+		"/Users/khacpham/Downloads/multiplayer-game/index.js",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/01-expressive/02.time-for-a-change.md",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/01-expressive/image/terminal.glue",
+		"/Users/khacpham/Desktop/02.tfac01.png",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/01-expressive/01.oddity.md",
+		"/Users/khacpham/Downloads/emoji_workspace/emoji.json",
+		"/Users/khacpham/Desktop/box.sketch",
+		"/Users/khacpham/Downloads/emoji.json",
+		"/Users/khacpham/Downloads/emojione-master/emoji.json",
+		"/Users/khacpham/Downloads/emojione-master/emoji_strategy.json",
+		"/Users/khacpham/Downloads/emojione-master/assets/other/category_icons/travel.svg",
+		"/Users/khacpham/Desktop/Talking Kids Math and Numbers_com.kauf.talkingquiz.baum.TalkingKidsMathandNumbers/res/raw/tv.txt",
+		"/Users/khacpham/Desktop/Talking Kids Math and Numbers_com.kauf.talkingquiz.baum.TalkingKidsMathandNumbers/res/raw/quiz.txt",
+		"/Users/khacpham/Workspaces/react_workspace/AwesomeProject/index.android.js",
+		"/Users/khacpham/Workspaces/react_workspace/AwesomeProject/index.ios.js",
+		"/Users/khacpham/Workspaces/arduino_workspace/ex01.js",
+		"/Users/khacpham/Development/node-ardx/package.json",
+		"/Users/khacpham/Workspaces/github_workspace/Macarfi-Android/.gitignore",
+		"/Volumes/Sketch 3.3.3/MAS.txt",
+		"/Users/khacpham/Workspaces/github_workspace/travis-test/.travis.yml",
+		"/Users/khacpham/Workspaces/github_workspace/travis-test/README.md",
+		"/Users/khacpham/Desktop/Signature.txt",
+		"/Users/khacpham/Library/Preferences/com.apple.Preview.LSSharedFileList.plist",
+		"/Users/khacpham/.wps.ini",
+		"/Users/khacpham/.v8flags.3.28.71.19.khacpham.json",
+		"/private/etc/hosts",
+		"/Users/khacpham/.bash_sessions/4AF00F65-35D1-416D-9DB0-FF6CB4953307.historynew",
+		"/Users/khacpham/Workspaces/www/streamsound/client.html",
+		"/Users/khacpham/Workspaces/www/streamsound/index.php",
+		"/Users/khacpham/Workspaces/www/PHP-Streaming-Audio-master/index.php",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/usr/local/php5-5.6.14-20151002-085853/php.d/50-extension-apcu.ini",
+		"/usr/local/php5-5.6.14-20151002-085853/php.d/10-extension_dir.ini",
+		"/usr/local/php5-5.6.14-20151002-085853/lib/php.ini",
+		"/Library/WebServer/Documents/index.php",
+		"/private/etc/php.ini",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/srcwww/favicons/terminal.glue",
+		"/usr/local/lib/node_modules/ionic/lib/cli.js",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/srcwww/index.html",
+		"/usr/local/lib/node_modules/ionic/bin/ionic",
+		"/usr/local/lib/node_modules/ionic/lib/tasks/cliTasks.js",
+		"/usr/local/lib/node_modules/ionic/lib/ionic/serve.js",
+		"/usr/local/lib/node_modules/ionic/node_modules/ionic-app-lib/ionic.js",
+		"/usr/local/lib/node_modules/ionic/node_modules/ionic-app-lib/index.js",
+		"/usr/local/lib/node_modules/ionic/node_modules/ionic-app-lib/lib/start.js",
+		"/usr/local/lib/node_modules/ionic/node_modules/ionic-app-lib/lib/serve.js",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/scripts/app.coffee",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/scripts/extensions/ionic/scrollbar.scss",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/gulpfile.js",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/srcwww/js/app.js",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/listing/views/deck.jade",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/listing/listing-deck.controller.coffee",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/signup/views/signup.jade",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/signup/signup.controller.coffee",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod-mobile/www/index.html",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/signup/signup.config.coffee",
+		"/Users/khacpham/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/khacpham/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/signin/views/signin.jade",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/app.coffee",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/app.controller.coffee",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/www/index.html",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/gulpfile.js",
+		"/Users/khacpham/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/khacpham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/.gitignore",
+		"/Users/khacpham/Workspaces/github_workspace/decker-capecod/dd-capecod/scripts/modules/listing/listing.config.coffee",
+		"/Users/khacpham/Downloads/IonicDemo/www/templates/menu.html",
+		"/Users/khacpham/Downloads/IonicDemo/www/index.html",
+		"/Users/khacpham/Downloads/ionic_workspaces/IonicSql/www/index.html",
+		"/Users/khacpham/Downloads/scandit-barcodescanner-community-android_4.10.1/Samples/BatchModeScanSample/project.properties",
+		"/Users/khacpham/Downloads/How to compile FFmpeg for Android.txt",
+		"/Users/khacpham/Workspaces/github_workspace/luyenthi.com/.gitignore",
+		"/Users/khacpham/Downloads/I9500/i9500_adonis_eu.pit",
+		"/Volumes/Heimdall Suite 1.4.0/README.txt",
+		"/Users/khacpham/Development/android-ndk-r10e/sources/ffmpeg-2.8.3/build_android.sh",
+		"/Users/khacpham/Development/android-ndk-r10e/sources/ffmpeg-2.8.3/build_android_x86.sh",
+		"/Users/khacpham/.bash_profile",
+		"/Users/khacpham/Downloads/FFmpegTest/README.md",
+		"/Users/khacpham/Downloads/UbuntuCompilationGuide.txt",
+		"/Volumes/SDL2/ReadMe.txt",
+		"/Users/khacpham/Workspaces/github_workspace/ffmpeg-android-sample/README.md",
+		"/Users/khacpham/Downloads/android-ffmpeg-tutorial-master/android-ffmpeg-tutorial02/res/layout/activity_main.xml",
+		"/Users/khacpham/Downloads/android-ffmpeg-tutorial-master/android-ffmpeg-tutorial02/jni/Android.mk",
+		"/Users/khacpham/Downloads/android-ffmpeg-tutorial-master/android-ffmpeg-tutorial02/jni/Application.mk",
+		"/Users/khacpham/Downloads/android-ffmpeg-tutorial-master/android-ffmpeg-tutorial01/jni/Application.mk",
+		"/Users/khacpham/Development/dex2jar/sample/Instagram/Instagram_7.1.1_12505108/res/layout/tooltip_up.xml",
+		"/Users/khacpham/Development/dex2jar/sample/Instagram/Instagram_7.1.1_12505108/com/googlecode/mp4parser/boxes/mp4/objectdescriptors/ObjectDescriptor.java_bak",
+		"/Users/khacpham/Development/android-ndk-r10e/sources/ffmpeg-2.8.3/configure",
+		"/Users/khacpham/Downloads/dump.txt",
+		"/Users/khacpham/Downloads/dex2jar-2.0/d2j-std-apk.bat",
+		"/Users/khacpham/Downloads/17_2.0.4_4/AndroidManifest.xml",
+		"/Users/khacpham/Downloads/24 Game Buttons/buttons font.txt",
+		"/Users/khacpham/Downloads/17_2.0.4_4/original/AndroidManifest.xml",
+		"/Users/khacpham/Downloads/test.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"standardgallery2",
+			"broadcast",
+			"sendWord",
+			"App",
+			"loaded",
+			"led2",
+			"Document",
+			"DocumentRoot",
+			"options",
+			"start",
+			"serve",
+			"localStorage",
+			"localStorageServiceProvider",
+			"keys",
+			"move_",
+			"error",
+			"serve",
+			"child",
+			"child-pro",
+			"child",
+			"-z,",
+			"SLIBNAME_WITH_MAJOR",
+			"enabled librtmp",
+			"SLIBNAME_WITH_MAJOR",
+			"--warn-once",
+			"noexecstack",
+			"SLIBNAME_WITH_MAJOR",
+			"decodeFrame",
+			"VP8Codec.a",
+			"Activity stack",
+			"hello",
+			"test and hello ham khac\n",
+			"hello"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "00-others/android-launchmode.md",
+					"settings":
+					{
+						"buffer_size": 13003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11286,
+								11286
+							]
+						],
+						"settings":
+						{
+							"parser": "markdown",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"target": "disk",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5004.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true
+}
