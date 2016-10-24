@@ -40,10 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": "00-others/android-launchmode.md",
+			"file": "00-others/functional-reactive-programming.md",
 			"settings":
 			{
-				"buffer_size": 13003,
+				"buffer_size": 9517,
 				"line_ending": "Unix"
 			}
 		}
@@ -56,6 +56,10 @@
 		[
 			[
 				"Mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Mark",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
@@ -73,10 +77,6 @@
 			[
 				"MarkdownP",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"Mark",
-				"Markdown Preview: Save to HTML"
 			],
 			[
 				"install",
@@ -124,9 +124,10 @@
 	},
 	"file_history":
 	[
+		"/Users/khacpham/Downloads/dummyUser.txt",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/00-others/android-launchmode.md",
 		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/java-puzzle.sublime-project",
 		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/java-puzzle.sublime-workspace",
-		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/00-others/android-launchmode.md",
 		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/README.md",
 		"/Volumes/DRIVE ONE 4/Serial key.txt",
 		"/Users/khacpham/Desktop/layvo.txt",
@@ -299,29 +300,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "00-others/android-launchmode.md",
+					"file": "00-others/functional-reactive-programming.md",
 					"settings":
 					{
-						"buffer_size": 13003,
+						"buffer_size": 9517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11286,
-								11286
+								7956,
+								7956
 							]
 						],
 						"settings":
 						{
-							"parser": "markdown",
+							"parser": "github",
 							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
 							"target": "disk",
-							"word_wrap": true
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5004.0,
+						"translation.y": 3611.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
