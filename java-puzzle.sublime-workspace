@@ -40,10 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": "00-others/functional-reactive-programming.md",
+			"file": "02-opengl/part_1.md",
 			"settings":
 			{
-				"buffer_size": 9517,
+				"buffer_size": 6801,
 				"line_ending": "Unix"
 			}
 		}
@@ -55,7 +55,7 @@
 		"selected_items":
 		[
 			[
-				"Mar",
+				"mark",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
@@ -63,11 +63,11 @@
 				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"Ma",
+				"Mar",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"mark",
+				"Ma",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
@@ -107,7 +107,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 575.0
+		"width": 517.0
 	},
 	"console":
 	{
@@ -124,6 +124,9 @@
 	},
 	"file_history":
 	[
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/02-opengl/part_1.md",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/opengl/part_1.md",
+		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/00-others/functional-reactive-programming.md",
 		"/Users/khacpham/Downloads/dummyUser.txt",
 		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/00-others/android-launchmode.md",
 		"/Users/khacpham/Workspaces/github_workspace/java-puzzle/java-puzzle.sublime-project",
@@ -300,30 +303,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "00-others/functional-reactive-programming.md",
+					"file": "02-opengl/part_1.md",
 					"settings":
 					{
-						"buffer_size": 9517,
+						"buffer_size": 6801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7956,
-								7956
+								6477,
+								6477
 							]
 						],
 						"settings":
 						{
-							"parser": "github",
+							"parser": "markdown",
 							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"target": "disk",
-							"translate_tabs_to_spaces": true
+							"target": "disk"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3611.0,
+						"translation.y": 1844.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -387,6 +388,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 205.0,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true
 }

@@ -75,7 +75,61 @@ Như vậy có thể nói khi thêm một chiều khác làm cho công việc c�
 
 Hmmm, lại thêm 1 chiều nữa ư?
 
-Chính xác, điểm cuối cùng tôi muốn nhắc đến chính là điều này. 
+Chính xác, điểm cuối cùng tôi muốn nhắc đến chính là điều này. Chúng ta không chỉ làm việc trong thế giới 3D, chúng ta còn có chiều thứ 4: thời gian. Những sự vật trong thế giới 3D cần tương tác lẫn nhau, cần phải di chuyển, va chạm, thay đổi. Và như tôi đã nói ở trên, việc thay đổi đó trong thế giới 3D tạo ra nhiều kết quả khác nhau.
+
+Vậy đến lúc này chúng ta đã định nghĩa được 3D là: "việc mô phỏng mắt của con người và mô phỏng sự chuyển động của các sự vật".
+
+## Áp dụng OpenGL vào thế giới 3D
+
+Bây giờ mới là lúc nói về cái thú vị của bài blog này: Hãy nói về OpenGL. Đầu tiên chúng ta cần cảm ơn các nhà toán học như Ơ-le, Hamilton, Pythago và rất nhiều nhà khoa học khác. Nhờ có họ mà ngày nay chúng ta có quá nhiều công thức và công cụ để làm việc với không gian 3 chiều. OpenGL đã sử dụng tất cả kiến thức đó để tạo ra một thế giới 3D ngay trước mặt chúng ta. Có hàng nghìn, thậm chí hàng triệu phép tính toán trên một giây sử dụng các công thức toán học để mô phỏng lại vẻ đẹp mà mắt người trông thấy.
+
+OpenGL là một MÁY TRẠNG THÁI (state machine) - điều này có nghĩa là toàn bộ OpenGL làm việc trên mô hình thiết kế theo trạng thái. Để minh họa cho OpenGL, hãy tưởng tượng một máy Cần Trục cảng Hải Phòng chẳng hạn. Ở đó có rất nhiều các thùng hàng (container) với rất nhiều các kiện hàng nhỏ bên trong. OpenGL giống như toàn bộ khu cảng đó bao gồm:
+
+* Các thùng hàng (container) là các đối tượng trong OpenGL (Textures, Shaders, Meshes, và các thứ tương tự)
+* Các kiện hàng bên trong mỗi container là những gì chúng ta tạo ra trong ứng dụng sử dụng OpenGL. Đó là những thứ chúng ta nhìn thấy.
+* Máy cần trục là các OpenGL API, cái mà chúng ta sẽ sử dụng.
+
+Vậy khi chúng ta thực hiện một hàm trong OpenGL giống như việc sử dụng cần trục. Chiếc cần trục lấy các container trong cảng, nâng nó lên, xử lý những gì bên trong và cuối cùng thả xuống vào một nơi đã định sẵn. Bạn không phải trực tiếp sử dụng cảng đó, không thể thay đổi nội dung các thùng hàng, không thể thay thế chúng, bạn cũng không thể trực tiếp đụng chạm vào các thùng hàng trong cảng. Tất cả chỉ là bạn ra lệnh cho chiếc cần trục thực hiện. Chỉ có chiếc cần trục đó mới có thể tác động lên các thùng hàng trong container. Hãy nhớ điều này! Nó là cực kỳ quan trọng về OpenGL cho đến bây giờ. Chiếc cần trục chỉ là một thứ có thể quản lý các thùng hàng trong cảng.
+
+![Port][opengl_port_crane_example]
+
+Có vẻ OpenGL bị giới hạn bởi các API? nhưng không, các cần trục của OpenGL là cực kỳ mạnh mẽ. Nó có thể lặp lại việc xử lý gắp-và-thả hàng nghìn cho tới hàng triệu các container trong một giây. Một thứ tuyệt với khác của OpenGL là sử dụng mô hình State Machine, đó là chúng ta không phải lưu giữ bất kỳ thể hiện nào, chúng ta không cần phải tạo các đối tượng trực tiếp, chúng ta chỉ cần giữ các id, hoặc trong ví dụ trên: chúng ta chỉ cần biết về id của các container.
+
+## Vậy OpenGL làm việc như thế nào?
+
+Đi sâu vào bộ xử lý tính toán của OpenGL, ta thấy OpenGL sử dụng tính toán trực tiếp trên GPU - phần cứng xử lý đồ họa cho máy tính - và sử dụng dấu phảy động (floating points). CPU (Central Processing Unit) là chip xử lý của máy tính. Còn GPU (Graphics Processing Unit) là chip xử lý đồ họa. Chip xử lý đồ họa này giúp cho CPU giảm thiểu các công việc nặng nhọc: nó có thể xử lý ảnh trước khi hiện ra màn hình. Hay sâu hơn, những gì OpenGL thực hiện chính là trên GPU, thay vì tính toán trên CPU. GPU nhanh hơn rất rất nhiều với các số thực so với CPU. Đây là lý do cơ bản để các trò chơi 3D chạy nhanh hơn khi có card đồ họa. Đây cũng chính là lý do cho các phần mềm xử lý 3D chuyên nghiệp giúp chúng ta làm việc với "Software's Render" (xử lý trên CPU) hoặc "Graphics Card's Render" (xử lý trên GPU). Một vài phần mềm cũng cho chúng ta một tùy chọn: Có dùng OpenGL hay không? Và đó, giờ bạn đã biết rồi. Tùy chọn đó chính là dành cho việc xử lý sẽ ở trên GPU hay không. Vì vậy, OpenGL sẽ hoàn toàn làm việc với GPU hay không? câu trả lời là không chắc. Chỉ những thao tác xử lý ảnh và vài thứ khác thôi. OpenGL cho chúng ta rất nhiều chức năng để lưu trữ ảnh, dữ liệu, thông tin trong một định dạng cụ thể. Những định dạng này được xử lý trực tiếp bởi GPU. Vì vậy OpenGL phụ thuộc vào phần cứng. Nếu phần cứng không hỗ trợ OpenGL, chúng ta không thể sử dụng nó. Quá buồn! Các phiên bản mới của OpenGL thường xuyên cần những tính năng mới của GPU. Nhưng cũng đừng lo lắng, OpenGL luôn cần những nhà sản xuất tích hợp vào, chúng ta (những developer - coder) sẽ làm việc trên các phiên bản OpenGL mới chỉ khi thiết bị đã sẵn sàng. Trong thực tế, tât cả các chip đồ họa hiện tại đều hỗ trợ OpenGL. Vì vậy bạn có thể sử dụng OpenGL với rất nhiều ngôn ngữ và thiết bị. Thậm chí với Microsoft Windows.
+
+## Logic của OpenGL
+
+OpenGL là thư viện đồ họa khá ngắn gọn và súc tích. Những gì bạn thấy trong các phần mềm xử lý 3D chuyên nghiệp là cực kỳ phức tạp hoạt động trên OpenGL. Vì Logic của OpenGL có những thứ sau:
+
+* Primitives (Các đối tượng cơ bản)
+* Buffers (Lưu vào bộ đệm)
+* Rasterize (Xử lý đồ họa)
+
+OpenGL hoạt động xoay quanh 3 khái niệm này. Mỗi khái niệm ở trên độc lập nhau và làm thế nào để cả 3 có thể cùng nhau tạo ra các hiệu ứng 3D đẹp mắt (hay kể cả với các ảnh 2D vì nó chỉ là dạng 3D với độ sâu Z=0, chúng ta sẽ nói vấn đề này sau).
+
+## Primitives
+
+Bao gồm 3 loại đói tượng:
+
+* Các điểm trong hệ không gian 3 chiều (x, y và z)
+* Các đường thẳng trong không gian (sự kết hợp của 2 điểm)
+* về một tam giác trong không gian (sự kết hợp của 3 điểm)
+
+Một điểm 3D có thể coi như một hạt trong không gian.
+Một đường thẳng luôn có thể coi như một vector.
+Một tam giác có thể coi là một mặt trong 1 cái lưới với hàng nghìn, triệu tam giác kết hợp lại.
+
+Một vài phiên bản OpenGL hỗ trợ quads (hình tứ diện với 4 điểm), cũng là một loại của tam giác, nhưng để OpenGL ES đạt hiệu quả cao nhất thì cái này không được hỗ trợ.
+
+## Buffers
+
+Giờ hãy 
+
+
+
+
 
 
 [cube_example]: image/cube_example.gif "cube example"
@@ -83,3 +137,32 @@ Chính xác, điểm cuối cùng tôi muốn nhắc đến chính là điều n
 [opengl_part1]: image/opengl_part1.png "opengl-part1"
 [opengl_port_crane_example]: image/opengl_port_crane_example.jpg "opengl-port-crane-example"
 [shaders_example]: image/shader_example.gif "shader-example"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
